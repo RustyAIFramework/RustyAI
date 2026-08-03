@@ -34,7 +34,7 @@ ZeroicAI enables you to build software systems composed of **autonomous agents**
 | **z-patterns** | ✅ Complete | Hierarchy, swarm, market, coalition, holarchy, blackboard | [Link](https://github.com/zeroicai/z-patterns) |
 | **z-runtime** | ✅ Complete | Async runtime, scheduler, supervisor, tracing | [Link](https://github.com/zeroicai/z-runtime) |
 | **zeroicai** (facade) | ✅ Complete | Unified re-export of all crates | Updating |
-| **zeroicai-website** | ✅ Live | Project website | [zeroicai.org](https://www.zeroicai.org/) |
+| **zeroicai-website** | ✅ Live | Project website | [zeroicai.org](zeroic-ai.vercel.app) |
 
 **Core framework: Complete and compiling.** Now stabilizing toward 1.0.
 
