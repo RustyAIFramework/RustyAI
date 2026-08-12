@@ -2,11 +2,11 @@
 #![warn(missing_docs)]
 #![warn(clippy::all)]
 
-pub use z_core as agent_core;
-pub use z_messaging as messaging;
-pub use z_cognition as cognition;
-pub use z_patterns as patterns;
-pub use z_runtime as runtime;
+pub use agent_core;
+pub use messaging as messaging;
+pub use cognition as cognition;
+pub use patterns as patterns;
+pub use runtime as runtime;
 
 /// Unified prelude for convenient imports
 pub mod prelude;
