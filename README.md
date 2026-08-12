@@ -1,15 +1,7 @@
 # $RustyAI
 
-Contract Address:
-```bash
-yi66MMYBeHvMAbiboJeqVcjXh3b746D3P6nCRfypump
-```
----
-
-## RustyAI
-
-[![Crates.io](https://img.shields.io/crates/v/rustyai.svg)](https://crates.io/crates/rustyai)
-[![Documentation](https://docs.rs/rustyai/badge.svg)](https://docs.rs/rustyai)
+[![Crates.io](https://img.shields.io/crates/v/zeroicai.svg)](https://crates.io/crates/zeroicai)
+[![Documentation](https://docs.rs/zeroicai/badge.svg)](https://docs.rs/zeroicai)
 [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](LICENSE)
 [![Rust](https://img.shields.io/badge/rust-1.75%2B-orange.svg)](https://www.rust-lang.org)
 
