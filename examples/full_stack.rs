@@ -1,11 +1,11 @@
 //! Full stack example - Complete multi-agent system
 
-use zeroicai::prelude::*;
+use rustyai::prelude::*;
 
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    println!("🚀 ZeroicAI Full Stack Example\n");
+    println!("🚀 RustyAI Full Stack Example\n");
 
     // 1. Create runtime
     let config = RuntimeConfig::default();

@@ -1,6 +1,6 @@
 //! Integration tests for the facade crate
 
-use zeroicai::prelude::*;
+use rustyai::prelude::*;
 
 #[test]
 fn test_prelude_imports() {

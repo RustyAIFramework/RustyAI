@@ -1,10 +1,10 @@
 //! Swarm example - Collective intelligence with multiple agents
 
-use zeroicai::prelude::*;
+use rustyai::prelude::*;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    println!("ZeroicAI Swarm Example\n");
+    println!("RustyAI Swarm Example\n");
 
     // Create a swarm structure
     let mut swarm = SwarmStructure::new("ExplorationSwarm");

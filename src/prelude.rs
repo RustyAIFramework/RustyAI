@@ -1,9 +1,9 @@
-//! Unified prelude for the zeroicai framework.
+//! Unified prelude for the rustyai framework.
 //!
 //! Import everything you need with a single use statement:
 //!
 //! ```rust
-//! use zeroicai::prelude::*;
+//! use rustyai::prelude::*;
 //! ```
 
 // Core primitives

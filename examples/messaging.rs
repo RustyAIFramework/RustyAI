@@ -1,10 +1,10 @@
 //! Messaging example - Agents communicating with each other
 
-use zeroicai::prelude::*;
+use rustyai::prelude::*;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    println!("📨 ZeroicAI Messaging Example\n");
+    println!("📨 RustyAI Messaging Example\n");
 
     // Create two agents
     let agent1_id = AgentId::new();
