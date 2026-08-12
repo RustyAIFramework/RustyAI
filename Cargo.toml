@@ -1,22 +1,22 @@
 [package]
-name = "ZeroicAI"
+name = "RustyAI"
 version = "0.1.0"
 edition = "2021"
-authors = ["ZeroicAI Contributors"]
+authors = ["RustyAI Contributors"]
 license = "MIT OR Apache-2.0"
 description = "Comprehensive Rust framework for building intelligent, autonomous multi-agent systems"
-repository = "https://github.com/zeroicai/zeroicai"
-documentation = "https://docs.rs/ZeroicAI"
+repository = "https://github.com/rustyai/rustyai"
+documentation = "https://docs.rs/RustyAI"
 keywords = ["agents", "multi-agent", "AOP", "autonomous", "coordination"]
 categories = ["simulation", "algorithms"]
 readme = "README.md"
 
 [dependencies]
-z-core = { git = "https://github.com/zeroicai/z-core", branch = "main" }
-z-messaging = { git = "https://github.com/zeroicai/z-messaging", branch = "main" }
-z-cognition = { git = "https://github.com/zeroicai/z-cognition", branch = "main" }
-z-patterns = { git = "https://github.com/zeroicai/z-patterns", branch = "main" }
-z-runtime = { git = "https://github.com/zeroicai/z-runtime", branch = "main" }
+agent-core = { path = "../agent-core" }
+messaging = { path = "../messaging" }
+cognition = { path = "../cognition" }
+patterns = { path = "../patterns" }
+runtime = { path = "../runtime" }
 
 [dev-dependencies]
 tokio = { version = "1.0", features = ["full"] }
