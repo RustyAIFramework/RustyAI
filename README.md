@@ -28,13 +28,13 @@ RustyAI enables you to build software systems composed of **autonomous agents** 
 
 | Crate | Status | Description | Repository |
 |-------|--------|-------------|------------|
-| **agent-core** | ✅ Complete | Agent primitives, traits, lifecycle, identity | [Link](https://github.com/rustyai/agent-core) |
-| **messaging** | ✅ Complete | FIPA messaging, routing, mailboxes, protocols | [Link](https://github.com/rustyai/messaging) |
-| **cognition** | ✅ Complete | BDI architecture, reasoning, decision-making | [Link](https://github.com/rustyai/cognition) |
-| **patterns** | ✅ Complete | Hierarchy, swarm, market, coalition, holarchy, blackboard | [Link](https://github.com/rustyai/patterns) |
-| **runtime** | ✅ Complete | Async runtime, scheduler, supervisor, tracing | [Link](https://github.com/rustyai/runtime) |
+| **agent-core** | ✅ Complete | Agent primitives, traits, lifecycle, identity | [Link](https://github.com/RustyAIFW/agent-core) |
+| **messaging** | ✅ Complete | FIPA messaging, routing, mailboxes, protocols | [Link](https://github.com/RustyAIFW/messaging) |
+| **cognition** | ✅ Complete | BDI architecture, reasoning, decision-making | [Link](https://github.com/RustyAIFW/cognition) |
+| **patterns** | ✅ Complete | Hierarchy, swarm, market, coalition, holarchy, blackboard | [Link](https://github.com/RustyAIFW/patterns) |
+| **runtime** | ✅ Complete | Async runtime, scheduler, supervisor, tracing | [Link](https://github.com/RustyAIFW/runtime) |
 | **rustyai** (facade) | ✅ Complete | Unified re-export of all crates | Updating |
-| **rustyai-website** | ✅ Live | Project website | [rustyai.org](https://www.rustyai.org/) |
+| **rustyai-website** | ✅ Live | Project website | [www.rustyaifw.xyz](https://www.rustyaifw.xyz/) |
 
 **Core framework: Complete and compiling.** Now stabilizing toward 1.0.
 
@@ -263,15 +263,15 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ### Development Setup
 ```bash
 # Clone the workspace
-git clone https://github.com/rustyai/rustyai.git
+git clone https://github.com/RustyAIFW/rustyai.git
 cd rustyai
 
 # Clone dependency crates
-git clone https://github.com/rustyai/agent-core.git
-git clone https://github.com/rustyai/messaging.git
-git clone https://github.com/rustyai/cognition.git
-git clone https://github.com/rustyai/patterns.git
-git clone https://github.com/rustyai/runtime.git
+git clone https://github.com/RustyAIFW/agent-core.git
+git clone https://github.com/RustyAIFW/messaging.git
+git clone https://github.com/RustyAIFW/cognition.git
+git clone https://github.com/RustyAIFW/patterns.git
+git clone https://github.com/RustyAIFW/runtime.git
 
 # Build and test everything
 cargo build
@@ -282,10 +282,10 @@ cargo test
 
 ## Documentation
 
-- **Website**: [rustyai.org](https://www.rustyai.org/)
-- **Getting Started**: [Guide](https://www.rustyai.org/docs/getting-started)
+- **Website**: [www.rustyaifw.xyz](https://www.rustyaifw.xyz/)
+- **Getting Started**: [Guide](https://www.rustyaifw.xyz/docs/getting-started)
 - **API Docs**: [docs.rs/rustyai](https://docs.rs/rustyai)
-- **GitHub**: [@rustyai](https://github.com/rustyai)
+- **GitHub**: [@rustyai](https://github.com/RustyAIFW)
 
 ---
 
@@ -321,7 +321,7 @@ RustyAI is inspired by decades of research in multi-agent systems:
 
 **Build intelligent, autonomous agents in Rust with RustyAI**
 
-[Website](https://www.rustyai.org/) · [GitHub](https://github.com/rustyai) · [Docs](https://docs.rs/rustyai)
+[Website](https://www.rustyaifw.xyz/) · [GitHub](https://github.com/RustyAIFW) · [Docs](https://docs.rs/rustyai)
 
 **Made with 🦀 by the RustyAI team**
 
